@@ -2,7 +2,6 @@
 
 set -e -u -o pipefail
 
-
 ### Set proxy variables, if needed.
 if [ -s /etc/ptfe/proxy-url ]; then
   http_proxy=$(cat /etc/ptfe/proxy-url)
